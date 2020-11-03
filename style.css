@@ -42,7 +42,8 @@ p, li, span, label, input, textarea,blockquote{
 
 a{
 	text-decoration: none;
-	color:#17a2b8;
+    color:#17a2b8;
+    font-family: monospace;
 }
 
 ul{
@@ -140,7 +141,6 @@ s2{
     align-content: center;
     padding-top: 50px;
     padding-bottom: 80px;
-    padding-right: 50px;
 }
 
 #preview{
