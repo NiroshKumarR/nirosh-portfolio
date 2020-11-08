@@ -143,6 +143,14 @@ s2{
     padding-bottom: 80px;
 }
 
+.intro.nail-peek:hover{
+    background-image: url(https://media.giphy.com/media/Y00c0w6xxtLn067SUi/source.gif);
+    background-position: right top;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    right: 50px;
+}
+
 #preview{
     width: 300px;
     height: 150px;
@@ -319,6 +327,10 @@ s2{
 	border:none;
 }
 
+footer{
+    text-align: center;
+}
+
 @media screen and (max-width:1200px){
     .main-cont{
         width: 95%;
@@ -336,5 +348,11 @@ s2{
     }
     .right-cl{
         justify-content: center;
+    }
+    .intro.nail-peek:hover{
+        background-image: url(https://media.giphy.com/media/xTkcEwKWdptAK6M0mc/200.gif);
+        background-position: right top;
+        background-size: 40%;
+        background-repeat: no-repeat;
     }
 }
